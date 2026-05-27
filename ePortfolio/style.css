@@ -1,0 +1,194 @@
+
+:root {
+  --nero: #0d0d0d;   
+  --oro:  #f5c518;   
+}
+
+
+body {
+  background-color: var(--nero);   
+  color: #e0e0e0;                  
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+  background-color: #000;                
+  border-bottom: 2px solid var(--oro);     
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;  
+  font-size: 2rem;
+  color: var(--oro) !important;            /* !important sovrascrive il colore di default di Bootstrap */
+}
+
+.nav-link {
+  color: var(--oro) !important;
+  font-weight: 600;
+}
+
+
+#hero {
+  background-image: url(img/sfondo.png);  
+  background-size: cover;                 
+  background-position: center;            
+  min-height: 90vh;                       /*vh: viewport height*/
+  display: flex;
+  align-items: center;                   
+}
+
+#hero h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: black;
+}
+
+
+.btn-oro {
+  background-color: var(--oro);
+  color: #000;
+  font-weight: 600;
+  border-radius: 30px;     
+  padding: 10px 28px;
+}
+
+
+.blocco {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #333;  
+}
+
+.blocco h2 {
+  color: var(--oro);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.blocco p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+
+footer {
+  background-color: #000;
+  border-top: 2px solid var(--oro);   
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+
+.linea-oro {
+  width: 60px;
+  height: 3px;
+  background-color: var(--oro);
+  margin-bottom: 30px;
+}
+
+
+.badge-tech {
+  background-color: var(--oro);
+  color: #000;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+
+.card {
+  background-color: #1f1f1f;
+  border: 1px solid var(--oro);
+  border-radius: 10px;
+  transition: transform 0.3s;   /* animazione fluida di 0.3 secondi al passaggio del mouse */
+}
+
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card-title {
+  color: var(--oro);
+  font-weight: 600;
+}
+
+.card-text {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+
+.card-link {
+  text-decoration: none;
+}
+
+
+.progress {
+  background-color: #333;   
+  border-radius: 10px;
+  height: 12px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  background-color: var(--oro);  
+}
+
+
+.label-skill {
+  display: flex;
+  justify-content: space-between;   
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+}
+
+
+.form-control {
+  background-color: #1f1f1f;
+  border: 1px solid var(--oro);
+  color: #e0e0e0;
+}
+
+/* Quando l'utente clicca su un campo (focus), appare un bagliore oro intorno */
+.form-control:focus {
+  background-color: #1f1f1f;
+  border-color: var(--oro);
+  color: #fff;
+  box-shadow: 0 0 0 3px rgba(245,197,24,0.2);   
+}
+
+
+.riquadro {
+  border: 1px solid var(--oro);
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  padding: 35px;
+}
+
+
+
+
+.hero-pagina {
+  background-image: url('img/sfondo.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;     /* centra verticalmente */
+  justify-content: center; /* centra orizzontalmente */
+  text-align: center;
+}
+
+
+.hero-pagina h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  color: black;
+}
